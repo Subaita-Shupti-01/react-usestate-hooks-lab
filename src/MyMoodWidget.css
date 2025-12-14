@@ -1,0 +1,36 @@
+/* src/MyMoodWidget.css */
+.mood-widget {
+  border: 1px solid #b59191;
+  padding: 12px;
+  border-radius: 8px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  background: #fad7f7;
+  box-shadow: 0 0 6px black;
+}
+
+.mood-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mood-image {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.mood-info { flex: 1; }
+
+.mood-button {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mood-controls {
+  margin-top: 10px;
+  font-size: 14px;
+}
